@@ -70,3 +70,13 @@ i {
   margin-top: 3rem;
   margin-bottom: 0rem;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .left-side {
+    margin: 1.5rem;
+  }
+}
